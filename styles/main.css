@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo__foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 79px;
+
+}
+
+
+
+.item {
+    margin-right: 30px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.link {
+    text-decoration: none;
+    color: #808080;
+}
+
+.photo {
+    max-width: 1110px;
+    width: 100%;
+}
+
+.images {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;    
+   
+}
+
+
+.left {
+    width: 100%;
+    max-width: 730px;
+    background-color: #F0F0F0;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    color: #4581B7;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #808080;
+    padding: 15px;
+}
+
+.right {
+    width: 350px;
+    background-color: #f0f0f0;
+}
+
+.letter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 1px;
+    color: #4581B7;
+}
+
+.text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: #808080;
+    padding: 15px;
+}
+
+.right {
+    width: 350px;
+    background-color: #F0F0F0
+}
+
+.foot {
+    width: 100%;
+    max-width: 1110px;
+    background-color: #F0F0F0;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    width: 350px;
+    background-color: #F0F0F0;
+    text-align: center;
+    color: #808080;
+}
